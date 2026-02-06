@@ -2,6 +2,7 @@ import { resumeData } from "@/data/resumeData";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { Mail, Phone, MapPin, Linkedin, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import profilePhoto from "@/assets/profile-photo.png";
 
 const Index = () => {
   return (
@@ -23,26 +24,39 @@ const Index = () => {
       <main className="max-w-4xl mx-auto px-6 pt-32 pb-24">
         {/* Hero Section */}
         <section className="mb-24 animate-fade-in">
-          <p className="text-sm text-muted-foreground mb-3">Hello, I'm</p>
-          <h1 className="text-5xl md:text-6xl font-semibold tracking-tight mb-4">
-            {resumeData.name}
-          </h1>
-          <p className="text-xl text-muted-foreground mb-6">
-            {resumeData.title}
-          </p>
-          <p className="text-base text-muted-foreground max-w-2xl leading-relaxed mb-8">
-            {resumeData.summary}
-          </p>
-          <div className="flex items-center gap-4">
-            <Button asChild>
-              <a href="#contact">Get in Touch</a>
-            </Button>
-            <Button variant="outline" asChild>
-              <a href={resumeData.linkedin} target="_blank" rel="noopener noreferrer">
-                <Linkedin className="w-4 h-4 mr-2" />
-                LinkedIn
-              </a>
-            </Button>
+          <div className="flex flex-col-reverse md:flex-row md:items-center md:justify-between gap-10">
+            <div className="flex-1">
+              <p className="text-sm text-muted-foreground mb-3">Hello, I'm</p>
+              <h1 className="text-5xl md:text-6xl font-semibold tracking-tight mb-4">
+                {resumeData.name}
+              </h1>
+              <p className="text-xl text-muted-foreground mb-6">
+                {resumeData.title}
+              </p>
+              <p className="text-base text-muted-foreground max-w-2xl leading-relaxed mb-8">
+                {resumeData.summary}
+              </p>
+              <div className="flex items-center gap-4">
+                <Button asChild>
+                  <a href="#contact">Get in Touch</a>
+                </Button>
+                <Button variant="outline" asChild>
+                  <a href={resumeData.linkedin} target="_blank" rel="noopener noreferrer">
+                    <Linkedin className="w-4 h-4 mr-2" />
+                    LinkedIn
+                  </a>
+                </Button>
+              </div>
+            </div>
+            <div className="flex-shrink-0">
+              <div className="w-40 h-40 md:w-52 md:h-52 rounded-full overflow-hidden border-4 border-border shadow-lg bg-muted">
+                <img 
+                  src={profilePhoto} 
+                  alt={`${resumeData.name} profile photo`}
+                  className="w-full h-full object-cover object-top"
+                />
+              </div>
+            </div>
           </div>
         </section>
 
