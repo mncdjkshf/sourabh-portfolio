@@ -1,6 +1,6 @@
 import { resumeData } from "@/data/resumeData";
 import { ThemeToggle } from "@/components/ThemeToggle";
-import { Mail, Phone, MapPin, Linkedin, ExternalLink, Download } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Index = () => {
@@ -101,7 +101,20 @@ const Index = () => {
                   <h3 className="text-lg font-medium group-hover:text-foreground transition-colors">
                     {project.title}
                   </h3>
-                  <span className="text-xs text-muted-foreground">{project.period}</span>
+                  <div className="flex items-center gap-3">
+                    {project.link && (
+                      <a
+                        href={project.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-muted-foreground hover:text-foreground transition-colors"
+                        aria-label={`View ${project.title}`}
+                      >
+                        <ExternalLink className="w-4 h-4" />
+                      </a>
+                    )}
+                    <span className="text-xs text-muted-foreground">{project.period}</span>
+                  </div>
                 </div>
                 <p className="text-muted-foreground text-sm leading-relaxed mb-4">
                   {project.description}

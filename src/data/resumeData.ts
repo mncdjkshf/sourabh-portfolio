@@ -37,7 +37,8 @@ export const resumeData = {
       title: "Voice-Controlled AI Assistant",
       period: "Jan 2024 - Feb 2024",
       description: "Developed a hands-free AI assistant for automation and web searches. Integrated voice recognition to enhance user experience and streamline task execution.",
-      technologies: ["Python", "Selenium"]
+      technologies: ["Python", "Selenium"],
+      link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%2213T5wrYF_AWmCjM7qry1uWMjMkQf_AJIV%22%5D,%22action%22:%22open%22,%22userId%22:%22105624933592587150850%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing"
     },
     {
       title: "E-Commerce Website",
