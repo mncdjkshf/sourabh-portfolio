@@ -49,7 +49,7 @@ const Index = () => {
               </div>
             </div>
             <div className="flex-shrink-0">
-              <div className="w-40 h-40 md:w-52 md:h-52 rounded-full overflow-hidden border-4 border-border shadow-lg bg-muted">
+              <div className="w-40 h-40 md:w-52 md:h-52 rounded-full overflow-hidden border-4 border-border shadow-lg bg-secondary">
                 <img 
                   src={profilePhoto} 
                   alt={`${resumeData.name} profile photo`}
