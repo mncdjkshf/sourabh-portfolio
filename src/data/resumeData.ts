@@ -34,23 +34,32 @@ export const resumeData = {
   
   projects: [
     {
+      title: "Driver Connect Hub",
+      period: "2024",
+      description: "A homepage with dashboard for connecting drivers. Built with modern web technologies and deployed on Vercel.",
+      technologies: ["React", "TypeScript", "Vercel"],
+      link: "https://vercel.com/sourabh-pals-projects-98a79f6f/driver-connect-hub"
+    },
+    {
       title: "Voice-Controlled AI Assistant",
       period: "Jan 2024 - Feb 2024",
       description: "Developed a hands-free AI assistant for automation and web searches. Integrated voice recognition to enhance user experience and streamline task execution.",
       technologies: ["Python", "Selenium"],
-      link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%2213T5wrYF_AWmCjM7qry1uWMjMkQf_AJIV%22%5D,%22action%22:%22open%22,%22userId%22:%22105624933592587150850%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing"
+      link: "https://ai.studio/apps/drive/13T5wrYF_AWmCjM7qry1uWMjMkQf_AJIV?fullscreenApplet=true"
     },
     {
-      title: "E-Commerce Website",
-      period: "Sep 2023 - Jan 2024",
-      description: "Built a dynamic e-commerce platform with responsive UI for a seamless shopping experience across devices.",
-      technologies: ["HTML", "CSS", "JavaScript", "Flask", "SQL"]
-    },
-    {
-      title: "Social Media Automation Software",
+      title: "Social Media Post Generator",
       period: "Apr 2023 - Aug 2023",
       description: "Created an automation tool to schedule and manage social media posts. Increased content publishing efficiency by automating engagement and post scheduling.",
-      technologies: ["Python", "Replit"]
+      technologies: ["Python", "Replit"],
+      link: "https://ai.studio/apps/drive/1KFX-w5a8jHcnKREXGnoVAJH0D9STWwJA?fullscreenApplet=true"
+    },
+    {
+      title: "SkillChain AI",
+      period: "2024",
+      description: "An AI-powered platform for skill development and learning chain management.",
+      technologies: ["AI", "Python"],
+      link: "https://ai.studio/apps/drive/1Hb8GNwz2OYnC4jogwxxHd2QS-erM9ZaJ?fullscreenApplet=true"
     }
   ],
   
