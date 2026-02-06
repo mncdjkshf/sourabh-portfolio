@@ -1,6 +1,6 @@
 export const resumeData = {
   name: "Sourabh Pal",
-  title: "Software Developer & Data Analyst",
+  title: "Software Developer, AI Engineer & Data Analyst",
   location: "Delhi, India",
   phone: "+91 7838615759",
   email: "palsourabh946@gmail.com",
