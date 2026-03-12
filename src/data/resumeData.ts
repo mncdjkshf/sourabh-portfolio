@@ -34,6 +34,27 @@ export const resumeData = {
   
   projects: [
     {
+      title: "AI-Powered Medical Image Diagnosis",
+      period: "2024",
+      description: "An AI-powered system for medical image diagnosis leveraging deep learning techniques for accurate disease detection and classification.",
+      technologies: ["AI", "Python", "Deep Learning"],
+      link: "https://github.com/mncdjkshf/AI-Powered-Medical-Image-Diagnosis"
+    },
+    {
+      title: "Robotics Warehouse Robot Navigation",
+      period: "2024",
+      description: "A robotics project focused on autonomous warehouse robot navigation using pathfinding algorithms and sensor integration.",
+      technologies: ["Python", "Robotics", "AI"],
+      link: "https://github.com/mncdjkshf/Robotics-Warehouse-Robot-Navigation"
+    },
+    {
+      title: "Patient Risk Prediction System",
+      period: "2024",
+      description: "A machine learning-based system for predicting patient health risks using clinical data and predictive analytics.",
+      technologies: ["Python", "Machine Learning", "Data Analytics"],
+      link: "https://github.com/mncdjkshf/patient-patient-risk-prediction-system"
+    },
+    {
       title: "Driver Connect Hub",
       period: "2024",
       description: "A homepage with dashboard for connecting drivers. Built with modern web technologies and deployed on Vercel.",
