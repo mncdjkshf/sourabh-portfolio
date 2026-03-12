@@ -269,6 +269,17 @@ const Index = () => {
                 <span>LinkedIn Profile</span>
                 <ExternalLink className="w-4 h-4" />
               </a>
+              
+              <a 
+                href={resumeData.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors"
+              >
+                <Github className="w-5 h-5" />
+                <span>GitHub Profile</span>
+                <ExternalLink className="w-4 h-4" />
+              </a>
             </div>
           </div>
         </section>
