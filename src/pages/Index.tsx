@@ -1,6 +1,6 @@
 import { resumeData } from "@/data/resumeData";
 import { ThemeToggle } from "@/components/ThemeToggle";
-import { Mail, Phone, MapPin, Linkedin, ExternalLink } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, ExternalLink, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import profilePhoto from "@/assets/profile-photo.png";
 
