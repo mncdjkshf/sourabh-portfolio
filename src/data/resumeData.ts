@@ -35,6 +35,13 @@ export const resumeData = {
   
   projects: [
     {
+      title: "Industrial Robotics Assembly Line Quality Control",
+      period: "2024",
+      description: "An industrial robotics project for automated quality control on assembly lines using computer vision and machine learning.",
+      technologies: ["Python", "Robotics", "Computer Vision", "ML"],
+      link: "https://github.com/mncdjkshf/Industrial-Robotics-Assembly-Line-Quality-Control"
+    },
+    {
       title: "AI-Powered Medical Image Diagnosis",
       period: "2024",
       description: "An AI-powered system for medical image diagnosis leveraging deep learning techniques for accurate disease detection and classification.",
