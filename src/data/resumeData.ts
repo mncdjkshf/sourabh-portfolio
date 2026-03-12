@@ -5,6 +5,7 @@ export const resumeData = {
   phone: "+91 7838615759",
   email: "palsourabh946@gmail.com",
   linkedin: "https://linkedin.com/in/sourabh-pal-5a18b81a5",
+  github: "https://github.com/mncdjkshf",
   
   summary: "Motivated and results-driven BCA graduate with a strong foundation in software development, data analysis, and artificial intelligence. Passionate about leveraging technology to create innovative solutions. Adept at problem-solving, teamwork, and handling multiple projects under tight deadlines.",
   
