@@ -1,6 +1,6 @@
 import { resumeData } from "@/data/resumeData";
 import { ThemeToggle } from "@/components/ThemeToggle";
-import { Mail, Phone, MapPin, Linkedin, ExternalLink } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, ExternalLink, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import profilePhoto from "@/assets/profile-photo.png";
 
@@ -44,6 +44,12 @@ const Index = () => {
                   <a href={resumeData.linkedin} target="_blank" rel="noopener noreferrer">
                     <Linkedin className="w-4 h-4 mr-2" />
                     LinkedIn
+                  </a>
+                </Button>
+                <Button variant="outline" asChild>
+                  <a href={resumeData.github} target="_blank" rel="noopener noreferrer">
+                    <Github className="w-4 h-4 mr-2" />
+                    GitHub
                   </a>
                 </Button>
               </div>
@@ -261,6 +267,17 @@ const Index = () => {
               >
                 <Linkedin className="w-5 h-5" />
                 <span>LinkedIn Profile</span>
+                <ExternalLink className="w-4 h-4" />
+              </a>
+              
+              <a 
+                href={resumeData.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors"
+              >
+                <Github className="w-5 h-5" />
+                <span>GitHub Profile</span>
                 <ExternalLink className="w-4 h-4" />
               </a>
             </div>
